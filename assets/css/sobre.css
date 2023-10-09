@@ -1,0 +1,94 @@
+#container-sobre{
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+#container_int{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagem{
+    width: 100px;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(10, 10, 10);
+
+}
+.imagem>img{
+    width: 80%;
+    height: auto;
+
+}
+.nome{
+    width: 200px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infor-sobre{
+    width: 70%;
+    height: 55%;
+}
+
+#hardSkills{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hardSkills>.containerSkills{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    border: .5px solid rgba(70, 68, 68, 0.342);
+    border-bottom: 2px solid rgba(70, 68, 68, 0.342);
+    background-image: linear-gradient(180deg, rgba(70, 68, 68, 0.342), rgba(255, 255, 255, 0));
+    flex-direction: column;
+}
+
+#hardSkills>.containerSkills:hover{
+
+    background-image: linear-gradient(180deg, rgba(70, 68, 68, 0.315), rgba(255, 255, 255, 0));
+}
+
+.containerSkills>ul{
+    width: 60%;
+    height: auto;
+    display: flex;
+}
+.strong2{
+    color: rgb(94, 93, 93);
+    margin-left: 6px;
+}
+.containerSkills>.paragrafo{
+    color: rgb(146, 144, 144);
+    margin: 6px;
+}
+.skills{
+    width: 110px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.skills>img{
+    width: 30px;
+    height: auto;
+}
+
+.skills>img:hover{
+    width: 35px;
+}
