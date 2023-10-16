@@ -12,6 +12,44 @@
     flex-direction: column;
     align-items: center;
 }
+
+/* tela sobre mim*/
+.maisSobre{
+    height: 100%;
+    width: 100vw;
+    z-index: 3;
+    display: none;
+    position: fixed;
+    align-items:flex-start;
+    justify-content: center;
+    background-color: rgba(22, 22, 22, 0.795);
+}
+#cursos> h3,h4,p{
+    color: #fff;
+
+}
+.sobre{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobre>a{
+    width: 200px;
+    height: 35px;
+    background-color: rgb(97, 97, 97);
+    color: rgb(250, 250, 250);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre>a:hover{
+    background-color: rgb(71, 71, 71);
+}
+
 .imagem{
     width: 100px;
     height:100px;
@@ -36,6 +74,12 @@
 .infor-sobre{
     width: 70%;
     height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.infor-sobre>p{
+    color: black;
 }
 
 #hardSkills{

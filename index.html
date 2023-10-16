@@ -37,28 +37,46 @@
         <section id="home">
 
             <!--no responsivo a imagem ira pra cima do sobre-->
-            <div class="image">
-                <img src="./assets/images/capa.jpeg" alt="">
+            <div class="container_home">
+                <div class="image">
+                    <img src="./assets/images/capa.jpeg" alt="">
+                </div>
+                <div id="sobre">
+                    <div class="p">
+                        Olá, <strong> SOU PROGRAMADOR</strong>
+                        Sejam bem-vindos ao meu portfólio; mais abaixo você verá alguns 
+                        projetos pessoais, e suas tecnologias usadas.
+                        <br>
+                        Fique a vontade.
+                    </div>
+                    
+                    <div class="contatos">
+                        <ul>
+                            <li><a href="https://github.com/eltonps9" class="link"><img src="./assets/images/github.png" alt=""></a></li>
+                            <li><a href="https://www.linkedin.com/in/elton-passos-abb8141b8/" class="link"><img src="./assets/images/linkedin.png" alt=""></a></li>
+                            <li><a href="https://instagram.com/eltonps.dev" class="link"><img src="./assets/images/instagram.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div id="sobre">
-                <div class="p">
-                    Olá, <strong> SOU UM PROGRAMADOR</strong>
-                    sejam bem-vindos ao meu portfólio.
-                </div>
-                <div class="sobre">
-                    <a href="#sobre">Mais sobre mim</a>
-                </div>
-                <div class="contatos">
-                    <ul>
-                        <li><a href="https://github.com/eltonps9" class="link"><img src="./assets/images/github.png" alt=""></a></li>
-                        <li><a href="https://www.linkedin.com/in/elton-passos-abb8141b8/" class="link"><img src="./assets/images/linkedin.png" alt=""></a></li>
-                        <li><a href="https://instagram.com/eltonps.dev" class="link"><img src="./assets/images/instagram.png" alt=""></a></li>
-                    </ul>
-                </div>
+            <div class="descer">
+                <img src="./assets/images/down.png" alt="">
             </div>
         </section>
-
         <!-- sessao sobre mim-->
+        <section class="maisSobre"   onclick="sobreMim()">
+                
+            <div id="cursos">
+                <h3>Cursos:</h3><hr>
+                <p>> informatica profissional na L.Master informatica no ano de 2019.</p>
+                <p>> programador na b7web desde 2020</p>
+                <br>
+                <br>
+                <h4>Ensino médio:</h4><hr>
+                <p>> concluido no ano de 2019</p>
+            </div>
+            
+        </section>
         <section id="infor">
             <div id="container-sobre">
                 <div id="container_int">
@@ -69,9 +87,16 @@
                         <strong>Elton Passos</strong>
                     </div>
                     <div class="infor-sobre">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        <p>
+                            Meu nome é Elton, sou da cidade de Brumado-BA, e estou buscando uma vaga
+                            na área de T.I. ; curso programação voltado para a área de sistemas web, cursei
+                            informática.
+                        </p>
                     </div>
+                   
+                </div>
+                <div class="sobre">
+                    <a onclick="sobreMim()" id="buttonSobre">Mais sobre mim</a>
                 </div>
                 <div id="hardSkills">
                     <div class="containerSkills">
@@ -84,6 +109,7 @@
                             <li class="skills"><img src="./assets/images/php.png" alt=""></li>
                         </ul>
                     </div>
+                    
                 </div>
             </div>
         </section>
@@ -105,26 +131,33 @@
                 </div>
                 <div class="downProjetos">
                     <ul>
+                        <li class="imgProjetos"> <strong class="strongProj">Musica dos patinhos</strong> <p class="pProj">feito com php</p> <img src="./assets/images/5.png" alt="" class="imgProj"> <a href="https://github.com/eltonps9/logica.git" class="buttonProj">Acessar</a> </li>                        
                         <li class="imgProjetos"> <strong class="strongProj">Clone do instagram</strong> <p class="pProj">feito com php, html5, css3 e js</p> <img src="./assets/images/1.jpg" alt="" class="imgProj"> <a href="https://github.com/eltonps9/instagram_mvc" class="buttonProj">Acessar</a> </li>                        
                         <li class="imgProjetos"> <strong class="strongProj">LandPage do tesla</strong> <p class="pProj">feito com html5 e css3 (responsivo)</p> <img src="./assets/images/cloneTesla.png" alt="" class="imgProj"> <a href="https://eltonps9.github.io/clona-tesla/" class="buttonProj">Acessar</a> </li>                       
                         <li class="imgProjetos"> <strong class="strongProj">relogio/data</strong> <p class="pProj">feito com html5, css3 e js</p> <img src="./assets/images/3.jpg" alt="" class="imgProj"> <a href="https://eltonps9.github.io/iasd_horario/" class="buttonProj">Acessar</a> </li>                        
                     </ul>
                 </div>
-                <a id="link">mais projetos</a>
+                <a id="link">Mais projetos</a>
 
             </div>
         </section>
 
         <!-- sessao de contatos-->
         <section id="contatos">
-            <ul>
-                <li><a href="">git</a></li>
-                <li><a href="">instagram</a></li>
-                <li><a href="">linkedin</a></li>
-            </ul>
+            <div class="downContatos">
+                <ul>
+                    <li class="imgContatos"> <strong class="strongCont inst">Instagram</strong><img src="./assets/images/instagram.png" alt="" class="imgCont"> <a href="https://instagram.com/eltonps.dev" class="buttonCont instBut">Acessar</a> </li>                        
+                    <li class="imgContatos"> <strong class="strongCont git">Github</strong> <img src="./assets/images/github.png" alt="" class="imgCont"> <a href="https://github.com/eltonps9" class="buttonCont gitBut">Acessar</a> </li>                       
+                    <li class="imgContatos"> <strong class="strongCont linkedin">Linkedin</strong> <img src="./assets/images/linkedin.png" alt="" class="imgCont"> <a href="https://www.linkedin.com/in/elton-passos-abb8141b8/" class="buttonCont linkedinBut">Acessar</a> </li>                        
+                    <li class="imgContatos"> <strong class="strongCont email">E-mail</strong> <img src="./assets/images/gmail.png" alt="" class="imgCont"> <a href="mailto:eltonps19@gmail.com" class="buttonCont emailBut">Acessar</a> </li>                        
+                </ul>
+            </div>
         </section>
         
     </main>
+    <footer>
+        <p>Elton Passos dos Santos</p>
+    </footer>
 
     
 
