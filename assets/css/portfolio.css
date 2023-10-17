@@ -1,4 +1,4 @@
-#containerProjetos{
+#containerProjetos {
     width: 100%;
     height: auto;
     display: flex;
@@ -6,13 +6,15 @@
     justify-content: center;
     align-items: center;
 }
-.upProjetos{
+
+.upProjetos {
     width: 100%;
     height: 30%;
     display: flex;
     justify-content: center;
 }
-#link{
+
+#link {
     color: rgb(252, 252, 252);
     cursor: pointer;
     width: 110px;
@@ -24,18 +26,21 @@
     align-items: center;
     justify-content: center;
 }
-.titulo{
+
+.titulo {
     width: 25%;
     height: 100%;
     display: flex;
     justify-content: flex-end;
     margin: 15px;
 }
-.strongPort{
+
+.strongPort {
     color: rgb(94, 93, 93);
     margin-left: 6px;
 }
-.paragrafoPort{
+
+.paragrafoPort {
     width: 75%;
     display: flex;
     align-items: center;
@@ -44,8 +49,10 @@
     margin: 6px;
 }
 
+
 /*projetos*/
-.downProjetos{
+
+.downProjetos {
     width: 100%;
     height: auto;
     padding: 10px;
@@ -53,19 +60,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
-.downProjetos>ul{
-    width: 70%;
-    height:100%;
+
+.downProjetos>ul {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     padding: 8px;
     align-items: flex-start;
 }
 
-.imgProjetos{
+.imgProjetos {
     height: 350px;
     width: 290px;
     padding: 5px;
@@ -73,29 +79,31 @@
     border-radius: 10px;
     margin-bottom: 15px;
     display: flex;
-    background-image: linear-gradient(180deg, rgba(70, 68, 68, 0.151),  rgba(255, 255, 255, 0));
+    background-image: linear-gradient(180deg, rgba(70, 68, 68, 0.151), rgba(255, 255, 255, 0));
     border: .5px solid rgba(70, 68, 68, 0.342);
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
 }
-.imgProjetos>.strongProj{
+
+.imgProjetos>.strongProj {
     font-size: 23px;
 }
-.imgProjetos>.pProj{
+
+.imgProjetos>.pProj {
     font-size: 14px;
     color: rgb(83, 83, 83);
 }
-.imgProjetos>.imgProj{
+
+.imgProjetos>.imgProj {
     width: 90%;
     padding: 8px;
     border-radius: 5px;
     height: auto;
     background-color: rgba(156, 153, 153, 0.678);
-
 }
-.imgProjetos>.buttonProj{
+
+.imgProjetos>.buttonProj {
     width: 150px;
     height: 25px;
     display: flex;
@@ -106,5 +114,4 @@
     font-size: 16px;
     cursor: pointer;
     background-color: rgb(97, 97, 97);
-
 }
