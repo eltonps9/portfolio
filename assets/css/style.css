@@ -116,6 +116,9 @@ ul>a>li {
 }
 
 @media (max-width:800px) {
+    .container_home {
+        flex-direction: column;
+    }
     /* -- header --*/
     .logo {
         width: 50%;
