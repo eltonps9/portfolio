@@ -119,6 +119,23 @@ ul>a>li {
     #home>.container_home {
         flex-direction: column;
     }
+    .container_home>#sobre {
+        width: 80%;
+        height: 85%;
+    }
+    .container_home>.image {
+        width: 80%;
+    }
+    .descer {
+        height: 20px;
+    }
+    .descer>img {
+        width: 25px;
+        height: auto;
+    }
+    .contatos {
+        margin-top: 8px;
+    }
     /* -- header --*/
     .logo {
         width: 50%;
