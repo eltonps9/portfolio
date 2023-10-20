@@ -142,6 +142,8 @@ ul>a>li {
     }
     .nav {
         width: 50%;
+        justify-content: flex-start;
+        padding-left: 30px;
     }
     .logo>p {
         display: none;
@@ -151,16 +153,20 @@ ul>a>li {
     }
     .nav>ul {
         width: 150px;
-        height: 200px;
-        border-radius: 8px;
+        height: 100vh;
         display: none;
         position: fixed;
-        top: 70px;
-        right: 100px;
+        top: 0;
+        right: 0;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         align-items: center;
-        background-color: rgba(97, 97, 97, 0.452);
+        padding-top:30px;
+        background-color: rgba(97, 97, 97);
+    }
+    .nav>ul>a{
+        flex:none;
+        height:50px;
     }
     .downProjetos>ul>.imgProjetos {
         width: 170px;
