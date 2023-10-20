@@ -172,6 +172,9 @@ ul>a>li {
         width: 170px;
         height: 210px;
     }
+    .downProjetos{
+        align-items: flex-end;
+    }
     /* -- main --*/
 }
 
