@@ -4,7 +4,6 @@ window.addEventListener('scroll', () => {
 
     if (window.pageYOffset) {
         up.style.display = "flex";
-        console.log("mexeu");
 
     } else {
         up.style.display = "none";
@@ -47,3 +46,17 @@ function menu() {
         menu.style.display = 'none';
     }
 }
+
+
+function loading() {
+    var janela = window.width;
+    var load = document.querySelector('.load');
+    if (janela <= "500") {
+        console.log("janela menor que 500px");
+        load.style.display = 'none';
+
+    } else {
+        load.style.display = 'flex';
+    }
+}
+setInterval(loading, 1000);

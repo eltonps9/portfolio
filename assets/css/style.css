@@ -162,27 +162,29 @@ ul>a>li {
         align-items: center;
         background-color: rgba(97, 97, 97, 0.452);
     }
-    .imgProjetos {
-        width: 150px;
+    .downProjetos>ul>.imgProjetos {
+        width: 170px;
         height: 210px;
-    }
-    .downProjetos {
-        height: 400px;
     }
     /* -- main --*/
 }
 
 @media (max-width:925px) {
-    .downProjetos {
-        justify-content: space-evenly;
+    #portfolio {
+        height: 900px;
     }
-    .imgProjetos {
+    #containerProjetos {
+        justify-content: space-between;
+    }
+    .downProjetos {
+        height: 70%;
+        justify-content: center;
+        align-items: center;
+    }
+    .downProjetos>ul>.imgProjetos {
         width: 200px;
         height: 260px;
     }
-#containerProjetos{
-height: 1400px;
-}
 }
 
 
