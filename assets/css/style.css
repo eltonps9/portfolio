@@ -196,7 +196,7 @@ ul>a>li {
     }
 }
 
-@media (max-width:800px) {
+@media (max-width:1200px) {
     .downProjetos>ul>.imgProjetos {
         width: 250px;
         height: 310px;
