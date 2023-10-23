@@ -20,7 +20,7 @@ link.addEventListener('click', () => {
 });
 var link2 = document.querySelector(".buttonProj");
 link2.addEventListener('click', () => {
-    window.open();
+    window.open('_blank');
 })
 
 // botao sobre mim
@@ -48,15 +48,3 @@ function menu() {
 }
 
 
-function loading() {
-    var janela = window.width;
-    var load = document.querySelector('.load');
-    if (janela <= "500") {
-        console.log("janela menor que 500px");
-        load.style.display = 'none';
-
-    } else {
-        load.style.display = 'flex';
-    }
-}
-setInterval(loading, 1000);
