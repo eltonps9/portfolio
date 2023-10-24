@@ -28,10 +28,10 @@
 }
 
 .titulo {
-    width: 25%;
+    width: 40%;
     height: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 15px;
 }
 
