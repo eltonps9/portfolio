@@ -203,7 +203,9 @@ ul>a>li {
         height: 100%;
         justify-content: center;
     }
-    /* -- main --*/
+    .downContatos>ul {
+    width: 100%;
+    }
 }
 
 @media (max-width:990px) {
