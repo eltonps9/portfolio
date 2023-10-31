@@ -11,7 +11,11 @@
         height: 180px;
     }
 }
-
+@media (min-width:770px) {
+     nav.nav {
+        display: flex;
+    }
+}
 @media (max-width:770px) {
     
     #home>.container_home {
@@ -93,9 +97,7 @@
 }
 
 @media (max-width:990px) {
-    nav.nav {
-        display: flex;
-    }
+   
     #portfolio {
         height: 900px;
     }
