@@ -93,6 +93,9 @@
 }
 
 @media (max-width:990px) {
+    nav.nav {
+        display: flex;
+    }
     #portfolio {
         height: 900px;
     }
@@ -111,9 +114,7 @@
 }
 
 @media (max-width:1200px) {
-    nav.nav {
-        display: flex;
-    }
+    
     .downProjetos>ul>.imgProjetos {
         width: 250px;
         height: 310px;
